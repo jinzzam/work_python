@@ -11,5 +11,5 @@ def hello(first_name, last_name): # name : 매개변수, 파라미터, 아규먼
 # hello("홍지수")
 # hello("안지영")
 # hello("황예린")
-hello("정원", "홍")
+hello("홍", "정원")
 
