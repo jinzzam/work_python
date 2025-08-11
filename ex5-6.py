@@ -12,4 +12,4 @@ print(fruits)
 # print("클리어 :" ,fruits)
 
 fr = fruits + fruits2
-print(fr)
+print("fr : ",fr)

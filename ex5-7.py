@@ -5,15 +5,15 @@ scores = [80, 90, 85, 95, 100]
 # print("합계 : ", s)
 # print("평균 : ", avg)
 
-# scores.reverse()  # 배열 순서 완전히 반대로 정렬
-# print(scores)
+scores.reverse()  # 배열 순서 완전히 반대로 정렬
+print("reverse : ", scores)
 
-# x = scores.copy()   # 리스트 복사
-# print(x)
-# print(scores)
+x = scores.copy()   # 리스트 복사
+print("scores.copy() : ",x)
+print("scores : ",scores)
 
 scores.sort()   # ascending
-print(scores)
+print("sort: ",scores)
 
 scores.sort(reverse=True)   # decending
-print(scores)
+print("sort(reverse=True) : ",scores)
