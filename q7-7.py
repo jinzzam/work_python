@@ -2,7 +2,7 @@ def int_to_zz(n):
     result = []
     i=1
     while i <= n:
-        result.append(i*i)
+        result.append(i*i)  # i**2 : i의 제곱의 다른 표현
         i+=1
     return result
 
