@@ -2,10 +2,10 @@
 tup1 = (10, 20)
 tup2 = (30, 40)
 tup3 = tup1+tup2    # 튜플 합치기
-# print(tup3) # (10, 20, 30, 40, 50, 30, 40)
+print(tup3) # (10, 20, 30, 40, 50, 30, 40)
 
-# for i in range(len(tup1)):
-#     print(tup1[i])
+for i in range(len(tup1)):
+    print(tup1[i])
 
 admin_info = ("admin", "12345", "webmaster@naver.com")
 

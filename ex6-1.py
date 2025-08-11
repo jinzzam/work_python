@@ -6,8 +6,8 @@ print(animals)
 # animals[2] = "호랑이"
 # print(animals)
 
-# numbers = tuple(range(10))  # (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
-# print(numbers)
+numbers = tuple(range(10))  # (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
+print(numbers)
 numbers = tuple(range(10, 21))  # (10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20)
 print(numbers)
 
